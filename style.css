@@ -1,0 +1,39 @@
+body {
+    background-color: ghostwhite;
+}
+
+#input-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+#input-container p, #config-container p {
+    margin: 0;
+    margin-right: 0.25rem;
+}
+
+#rollsInput {
+    width: 3rem;
+    margin-right: 1rem;
+}
+
+#config-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#results {
+    margin-top: 2rem;
+}
+
+table, tr {
+    border: 1px solid black;
+    font-family: monospace;
+}
+
+td.highlight {
+    font-weight: bold;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peach Pulls</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="input-container">
+        <p>Seed: 0x</p>
+        <input type="text" id="seedInput"/>
+    </div>
+    <div id="config-container">
+        <p>Range: </p>
+        <input type="text" id="rollsInput" value="10">
+        <button onclick="calculatePulls()">Search</button>
+    </div>
+
+    <div id="results-container">
+        <table id="results"></table>
+    </div>
+</body>
+
+<script src="script.js"></script>
+</html>
